@@ -1,10 +1,10 @@
-# Meetupz Full Stack React & LoopBack Application
+# Aplicación RescueMe Full Stack React & LoopBack 
 
-You need MongoDB installed as we are using the Mongo connector for Loopback
+Necesitas MondoDB instalado para ser usado como conector con Loopback
 
-### Usage
+### Como implementarse
 
-From the root folder (meetupz), install the dependencies
+Desde la carpeta raiz (rescueMe_lh) instala las dependencias
 
 ```sh
 $ npm install
@@ -20,36 +20,37 @@ http://localhost:3000
 Loopback explorer:
 http://localhost:3000/explorer
 
-### React client_src Usage 
-This is the react source code. This is the code you edit
+### Uso de React client_src 
+Este codigo fuente de react. 
 
-Open a new terminal in the "client_src" folder
+Abre una nueva terminal en la carpeta "client_src"
+
 
 ```sh
 $ npm install -g create-react-app
 ```
 
-From the "client_src folder" install client dependencies
+Desde la carpeta "client_src" instala las dependencias del cliente.
 
 ```sh
 $ npm install
 ```
-
- To Serve client
+ Para correr el servidor del cliente
 
  ```sh
 $ npm start
 ```
 
-This should start on port 3001
+Debería correr en el puerto 3001
 
-### Compile React client_src
+### Compilar React client_src
 
-From the "client_src" folder run
+Desde el cliente "client_src" corre
 
  ```sh
 $ npm run build
 ```
 
-This will put all static assets in the Loopback "client" folder and update the main app
+Esto debe debe mandar todos los datos en la carpeta loopback "cliente" y actualizar la aplicación principal 
+
 "# rm_local" 
